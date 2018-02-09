@@ -15,3 +15,38 @@
 
 2. vi에서 `:g/^M/s///g` 또는 `:%s/^M//g`를 실행한다.
 > 참고:  ^M은 Ctrl+V,M으로 입력.
+
+
+## Tip.terminal 
+터미널에서 파인더 실행하기
+To open your current directory in Finder from Terminal, type open .
+open Downloads
+open / Library
+
+## Vi 101
+```
+커맨드 모드
+:q 탈출
+:w 저장
+:q! 강제 종료
+:wq! // 강제 저장 후 종료
+
+이동하기
+맨우측으로 이동 (현재 줄) $
+첫문자로 이동하기  ^
+첫행으로 gg
+마지막행으로 G
+
+
+편집명령어들
+x 문자삭제
+
+u 수정내용 취소 
+ctrl+R 수정내용 취소했다가 다시 redo 하기
+```
+
+
+
+
+```
+
