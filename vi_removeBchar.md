@@ -71,4 +71,13 @@ http://tod2.tistory.com/28
 
 ```
  
+pod sample 
+```rb
+use_frameworks!
 
+target 'ViaCircleDebug' do
+	pod 'ChameleonFramework', '2.1.0'
+	pod 'SnapKit', '3.1.2'
+end
+
+```
